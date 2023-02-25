@@ -17,7 +17,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Check out
         uses: actions/checkout@v3
-      - with:
+        with:
           fetch-depth: 0
 
 
@@ -46,6 +46,6 @@ jobs:
 #         id: set-latest-tag
 #         run: git describe --tags
       
-#       - name: "git taga"
-#         run: git tag 
+      - name: "git taga"
+        run: git tag 
         
