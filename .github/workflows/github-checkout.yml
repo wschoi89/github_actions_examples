@@ -45,6 +45,6 @@ jobs:
         id: set-latest-tag
         run: git describe --tags
       
-      - name: "git tag"
+      - name: "git taga"
         run: git tag 
         
